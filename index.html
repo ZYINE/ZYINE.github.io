@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/page/index.css">
+  <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" href="styles/mobile/index.css">
+  <script src="index.js"></script>
+  <script src="respond.src.js"></script>
+</head>
+<body>
+  <!-- <div class="root"> -->
+    <div class="head">
+      <div class="head-wrap">
+        <div class="head-logo">
+          <div class="head-logo-view">
+            <img src="/static//logo.png" alt="">
+          </div>
+        </div>
+        <div class="head-mask" onclick="toggleMenu()" id="mask"></div>
+        <div class="head-icon" onclick="toggleMenu()">
+          <img src="/static/menu.png" alt="">
+        </div>
+        <div class="head-link" id="menu" on>
+          <div class="head-menu" name="menu" onclick="handleLink('pages/index.html')">
+            <div class="head-menu-text">首页</div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text  head-menu-text-spec">解决方案</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('solution/center.html')">影像中心</div>
+              <div class="head-menu-drop-item" onclick="handleLink('solution/gestate.html')">智慧孕产</div>
+              <div class="head-menu-drop-item" onclick="handleLink('solution/cloud.html')">院级影像云</div>
+              <div class="head-menu-drop-item" onclick="handleLink('solution/navigate.html')">院内导航导诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('solution/platform.html')">妇幼健康大数据平台</div>
+              <div class="head-menu-drop-item" onclick="handleLink('solution/waste.html')">互联网+医废监管平台</div>
+            </div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text head-menu-text-spec">产品</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('product/diag.html')">云诊断</div>
+              <div class="head-menu-drop-item" onclick="handleLink('product/film.html')">云胶片</div>
+              <div class="head-menu-drop-item" onclick="handleLink('product/save.html')">云存储</div>
+              <div class="head-menu-drop-item" onclick="handleLink('product/inquiry.html')">在线问诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('product/self.html')">全院自助</div>
+              <div class="head-menu-drop-item" onclick="handleLink('product/pacs.html')">院内RIS&PACS</div>
+            </div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('pages/partner.html')">
+            <div class="head-menu-text">合作医院</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('pages/policy.html')">
+            <div class="head-menu-text">政策</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('pages/about.html')">
+            <div class="head-menu-text">关于我们</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="view">
+        <img src="/static/index/banner.png" alt="banner">
+      </div>
+      <div class="wrap">
+        <div class="index-intro">
+          <h1 class="main-head">企业简介</h1>
+          <h4 class="main-desc">ENTERPRISE INTRODUCTION</h4>
+          <div class="main-body">
+            <div class="index-intro-detail">成都智影未来科技有限公司（简称智影科技）是一家位于国家级高新技术开发区-天府新区的高新技术企业，专业从事政府高科技扶持项目、医院信息化建设的高科技公司。顺应新医改“互联网+医疗健康”发展规划，基于最新的互联网技术-云计算、大数据、人工智能，突破传感网、物联网关键技术。先后自主研发了互联网影像平台、互联网影像应用、依托现有基础网络的院内院外信息互通应用、智慧医院解决方案、远程会诊应用、互联网医院解决方案等。</div>
+            <div class="index-intro-image">
+              <img src="/static/index/intro.png" alt="" srcset="">
+            </div>
+          </div>
+        </div>
+        <div class="index-solve clear">
+          <h1 class="main-head">医疗机构解决方案</h1>
+          <h4 class="main-desc">SOLUTIONS FOR MEDICAL INSTITUTIONS</h4>
+          <div class="main-body">
+            <div class="index-solve-wrap">
+              <div class="index-solve-item">
+                <div class="index-solve-item-view">
+                  <img src="/static/index/s1.png" alt="">
+                </div>
+                <div class="index-solve-item-head">影像中心</div>
+                <div class="index-solve-item-desc">
+                  量身定制高质量, 高性价比影像诊断中心, 助力院级影像诊断协助.
+                </div>
+                <div class="index-solve-item-more">
+                  <div class="index-solve-item-mbtn">
+                    MORE
+                  </div>
+                </div>
+              </div>
+              <div class="index-solve-item">
+                <div class="index-solve-item-view">
+                  <img src="/static/index/s2.png" alt="">
+                </div>
+                <div class="index-solve-item-head">影像中心</div>
+                <div class="index-solve-item-desc">
+                  量身定制高质量, 高性价比影像诊断中心, 助力院级影像诊断协助.
+                </div>
+                <div class="index-solve-item-more">
+                  <div class="index-solve-item-mbtn">
+                    MORE
+                  </div>
+                </div>
+              </div>
+              <div class="index-solve-item">
+                <div class="index-solve-item-view">
+                  <img src="/static/index/s3.png" alt="">
+                </div>
+                <div class="index-solve-item-head">影像中心</div>
+                <div class="index-solve-item-desc">
+                  量身定制高质量, 高性价比影像诊断中心, 助力院级影像诊断协助.
+                </div>
+                <div class="index-solve-item-more">
+                  <div class="index-solve-item-mbtn">
+                    MORE
+                  </div>
+                </div>
+              </div>
+              <div class="index-solve-item">
+                <div class="index-solve-item-view">
+                  <img src="/static/index/s4.png" alt="">
+                </div>
+                <div class="index-solve-item-head">影像中心</div>
+                <div class="index-solve-item-desc">
+                  量身定制高质量, 高性价比影像诊断中心, 助力院级影像诊断协助.
+                </div>
+                <div class="index-solve-item-more">
+                  <div class="index-solve-item-mbtn">
+                    MORE
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="index-coope clear">
+          <h1 class="main-head">合作医院</h1>
+          <h4 class="main-desc">COOPERATIVE HOSPITAL</h4>
+          <div class="main-body">
+            <div class="index-coope-wrap">
+              <div class="index-coope-item">
+                <img src="/static//hospital/h1.png" alt="">
+              </div>
+              <div class="index-coope-gaps"></div>
+              <div class="index-coope-item">
+                <img src="/static//hospital/h2.png" alt="">
+              </div>
+              <div class="index-coope-gaps"></div>
+              <div class="index-coope-item">
+                <img src="/static//hospital/h3.png" alt="">
+              </div>
+              <div class="index-coope-gaps"></div>
+              <div class="index-coope-item">
+                <img src="/static//hospital/h4.png" alt="">
+              </div>
+              <div class="index-coope-gaps"></div>
+              <div class="index-coope-item">
+                <img src="/static//hospital/h5.png" alt="">
+              </div>
+              <div class="index-coope-gaps"></div>
+              <div class="index-coope-item">
+                <img src="/static//hospital/h2.png" alt="">
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      <div class="foot-wrap">
+        <div class="foot-desc">
+          <div class="foot-contact">
+            <div class="foot-head">联系我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">公司: 成都智影未来科技有限公司</div>
+              <div class="foot-body-item">电话: 400-033-4001</div>
+              <div class="foot-body-item">地址: 成都市高新区天府大道中段1388号</div>
+              <div class="foot-body-item">邮箱: CSD@zyine.com</div>
+              <div class="foot-body-item">手机: 18080888033/13551071318</div>
+              <div class="foot-body-item">邮编: 610000</div>
+            </div>
+          </div>
+          <div class="foot-follow">
+            <div class="foot-head">关注我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信公众号">
+                <span>微信公众号</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fa.png" alt="Android APP">
+                <span>Android APP</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信客服号">
+                <span>微信客服号</span>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="foot-copy">
+          <span>COPYRIGHT©WWW.ZYINE.COM, ALL RIGHTS RESERVED.</span>
+          <span>蜀ICP备18008628</span>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+  <script>
+    var width = document.body.offsetWidth
+    // 初始化
+    // 一级菜单
+    // 默认首页
+    // menus[0].style.color = '#0c7fbb'
+    // 移动端初始化
+    if (width < 415) {
+      document.getElementById('menu').style.display = 'none'
+      document.getElementById('mask').style.display = 'none'
+    }
+    // 点击菜单
+    function  handleLink (page, index) {
+      if (width < 415) {
+        document.getElementById('menu').style.display = 'none'
+        document.getElementById('mask').style.display = 'none'
+        document.body.style.overflow = 'auto'
+      }
+      if (page) {
+        window.location.href = page
+      }
+    }
+    function toggleMenu () {
+      var display = document.getElementById('menu').style.display
+      document.body.style.overflow = display === 'none' ? 'hidden' : 'auto'
+      document.getElementById('menu').style.display = display === 'none' ? 'block' : 'none'
+      document.getElementById('mask').style.display = display === 'none' ? 'block' : 'none'
+    }
+    
+  </script>
+</body>
+</html>
