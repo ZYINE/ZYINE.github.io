@@ -1,0 +1,89 @@
+@media screen and (max-width: 414px) {
+  .center .view {
+    min-height: 124px;
+    height: 124px;
+    max-height: 124px;
+  }
+  .center-desc {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .center-apply-item {
+    width: 50%;
+  }
+  .center-apply-item img {
+    height: 100px;
+  }
+  .center-apply-gaps {
+    display: none;
+  }
+  .shim {
+    display: none;
+  }
+  .center-scheme-item {
+    height: 240px;
+  }
+  .center-scheme-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .center-scheme-head {
+    margin: 20px 0 0;
+    font-size: 14px;
+  }
+  .center-scheme-body {
+    font-size: 12px;
+    margin: 0;
+    line-height: 20px;
+    padding: 0 15px;
+  }
+  /* 孕产 */
+  .gestate-desc {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 0px;
+  }
+  .gestate-view img {
+    width: 80%;
+    height: auto;
+    margin: 20px auto 40px;
+  }
+  .gestate-goods {
+    width: 100%;
+  }
+  .gestate-good-item {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .gestate-good-view {
+    width: 60%;
+    float: none;
+    clear: both;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
+    padding: 20px 0 0;
+  }
+  .gestate-good-view img {
+    width: 100%;
+  }
+  /* 导航 */
+  .navigate-view {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+  .navigate-view img {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 40px;
+  }
+}

@@ -1,0 +1,100 @@
+@media screen and (max-width: 414px) {
+  /* 合作医院 */
+  .partner .view {
+    height: 124px;
+    min-height: 100px;
+    max-height: 124px;
+  }
+  .partner-wrap {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .partner-item {
+    width: 33.33%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .partner-item:hover .partner-hover {
+    display: none;
+  }
+  .partner-item:hover .partner-item-wrap {
+    border-color: #ccc;
+  }
+  .partner-item-wrap {
+    width: 100%;
+    height: 120px;
+    border-color: #eee;
+  }
+  .partner-view {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+  }
+  .partner-view img {
+    width: 80px;
+    height: 80px;
+  }
+  .partner-text {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .partner-gaps {
+    display: none;
+  }
+  
+  /* 政策 */
+  .policy .view {
+    height: 124px;
+    max-height: 124px;
+    min-height: 124px;
+  }
+  .policy-item {
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0px;
+  }
+  .policy-view {
+    width: 100px;
+    height: 80px;
+    top: 40px;
+    left: 15px;
+    bottom: 40px;
+  }
+  .policy-view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .policy-desc {
+    position: absolute;
+    left: 130px;
+    top: 20px;
+    right: 15px;
+    bottom: 10px;
+  }
+  .policy-desc-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .policy-desc-info {
+    font-size: 12px;
+  }
+  .policy-page {
+    width: 250px;
+    margin: 40px auto;
+  }
+  .policy-article {
+    padding: 0 15px;
+  }
+  .policy-quote {
+    margin: 0 20px;
+  }
+  .policy-article p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}

@@ -190,4 +190,11 @@
     font-size: 16px;
     color: #666;
   }
+  .main-nav {
+    margin-top: 10px;
+    padding: 0 15px;
+  }
+  .main-nav span {
+    font-size: 12px;
+  }
 }

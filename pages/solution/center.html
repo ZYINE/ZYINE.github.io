@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <title>智影未来</title>
+  <link rel="stylesheet" href="/styles/common.css">
+  <link rel="stylesheet" href="/styles/page/solution.css">
+  <link rel="stylesheet" href="/styles/mobile.css">
+  <link rel="stylesheet" href="/styles/mobile/solution.css">
+  <script src="/index.js"></script>
+  <script src="/respond.src.js"></script>
+</head>
+<body>
+  <!-- <div class="root"> -->
+    <div class="head">
+      <div class="head-wrap">
+        <div class="head-logo">
+          <div class="head-logo-view">
+            <img src="/static/logo.png" alt="">
+          </div>
+        </div>
+        <div class="head-mask" onclick="toggleMenu()" id="mask"></div>
+        <div class="head-icon" onclick="toggleMenu()">
+          <img src="/static/menu.png" alt="">
+        </div>
+        <div class="head-link" id="menu" on>
+          <div class="head-menu" name="menu" onclick="handleLink('/index.html')">
+            <div class="head-menu-text">首页</div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text active head-menu-text-spec">解决方案</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item active" onclick="handleLink('/pages/solution/center.html')">影像中心</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/gestate.html')">智慧孕产</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/cloud.html')">院级影像云</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/navigate.html')">院内导航导诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/platform.html')">妇幼健康大数据平台</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/waste.html')">互联网+医废监管平台</div>
+            </div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text head-menu-text-spec">产品</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('/product/diag.html')">云诊断</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/product/film.html')">云胶片</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/product/save.html')">云存储</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/product/inquiry.html')">在线问诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/product/self.html')">全院自助</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/product/pacs.html')">院内RIS&PACS</div>
+            </div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/policy.html')">
+            <div class="head-menu-text">相关政策</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/partner.html')">
+            <div class="head-menu-text">合作医院</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/about.html')">
+            <div class="head-menu-text">关于我们</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main center">
+      <div class="view">
+        <img src="/static/solution/c-banner.png" alt="banner">
+      </div>
+      <div class="wrap">
+        <div class="main-nav">
+          <span class="nav" onclick="handleLink('/index.html')">首页</span>
+          <span>></span>
+          <span>解决方案</span>
+          <span>></span>
+          <span>影像中心</span>
+        </div>
+        <div class="center-wrap">
+          <h1 class="main-head">智影影像中心</h1>
+          <h4 class="main-desc">COOPERATIVE ZHIYING IMAGE CENTER</h4>
+          <div class="main-body">
+            <div class="center-desc">
+              采用国内领先的互联网+模式运营的远程影像云平台，为申请医院、上级医院和专家之间搭建了桥梁， 从而告别了传统的沟通模式，提供了专业的影像互联网传输、诊断流程等解决方案，让远程专家突破 了时间与空间的限制，随时随地调阅影像和审核报告，能及时有效进行会诊需求响应
+            </div>
+          </div>
+        </div>
+        <div class="center-wrap">
+          <h1 class="main-head">应用场景</h1>
+          <h4 class="main-desc">APPLICATION SCENE </h4>
+          <div class="main-body">
+            <div class="center-apply">
+              <div class="center-apply-item">
+                <img src="/static/solution/a1.png" alt=""><div class="txt">医联体</div>
+              </div>
+              <div class="center-apply-gaps"></div>
+              <div class="center-apply-item">
+                <img src="/static/solution/a2.png" alt=""><div class="txt">精准扶贫</div>
+              </div>
+              <div class="center-apply-gaps"></div>
+              <div class="center-apply-item">
+                <img src="/static/solution/a3.png" alt=""><div class="txt">集团医院</div>
+              </div>
+              <div class="center-apply-gaps"></div>
+              <div class="center-apply-item">
+                <img src="/static/solution/a4.png" alt=""><div class="txt">医生集团</div>
+              </div>
+            </div>
+            <div class="shim"></div>
+          </div>
+        </div> 
+        <div class="center-wrap">
+          <h1 class="main-head">方案优势</h1>
+          <h4 class="main-desc">SCHEME ADVANTAGE</h4>
+          <div class="main-body">
+             <div class="center-scheme">
+               <div class="center-scheme-item">
+                 <img src="/static/solution/cm1.png" alt="">
+               </div>
+               <div class="center-scheme-item">
+                 <h1 class="center-scheme-head">定制化的建设方案</h1>
+                 <div class="center-scheme-body">远程诊断系统私有部署、通用平台自由选择。无缝对接院内现有的RIS、PACS系统，降低学习成本，充分利用现有IT资源。网络：专线、VPN、本地宽带。集成RIS信息，实现院内外系统无差别诊断。</div>
+               </div>
+               <div class="center-scheme-item">
+                <h1 class="center-scheme-head">先进的远程诊断系统</h1>
+                <div class="center-scheme-body">全流程影像诊断和信息化管理、远程诊断无时空限制，随时随地诊断，会诊。</div>
+              </div>
+              <div class="center-scheme-item">
+                <img src="/static/solution/cm2.png" alt="">
+              </div>
+              <div class="center-scheme-item">
+                <img src="/static/solution/cm3.png" alt="">
+              </div>
+              <div class="center-scheme-item">
+                <h1 class="center-scheme-head">信息安全</h1>
+                <div class="center-scheme-body">大平台金融级的信息安全防护、平台数字认证、SSL128位加密传输、加密存储、数字签名防纂改、严格的注册流程、授权访问。</div>
+              </div>
+              <div class="center-scheme-item">
+                <h1 class="center-scheme-head">丰富的影像中心运营管理经验</h1>
+                <div class="center-scheme-body"></div>
+              </div>
+              <div class="center-scheme-item">
+                <img src="/static/solution/cm4.png" alt="">
+              </div>
+              <div class="center-scheme-item">
+                <img src="/static/solution/cm5.png" alt="">
+              </div>
+              <div class="center-scheme-item">
+                <h1 class="center-scheme-head">支撑服务</h1>
+                <div class="center-scheme-body">提供7*24小时的技术支持和运营保障</div>
+              </div>
+             </div>
+          </div>
+        </div>  
+      </div>
+      <div class="shim"></div>
+    </div>
+    <div class="foot">
+      <div class="foot-wrap">
+        <div class="foot-desc">
+          <div class="foot-contact">
+            <div class="foot-head">联系我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">公司: 成都智影未来科技有限公司</div>
+              <div class="foot-body-item">电话: 400-033-4001</div>
+              <div class="foot-body-item">地址: 成都市高新区天府大道中段1388号</div>
+              <div class="foot-body-item">邮箱: CSD@zyine.com</div>
+              <div class="foot-body-item">手机: 18080888033/13551071318</div>
+              <div class="foot-body-item">邮编: 610000</div>
+            </div>
+          </div>
+          <div class="foot-follow">
+            <div class="foot-head">关注我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信公众号">
+                <span>微信公众号</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fa.png" alt="Android APP">
+                <span>Android APP</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信客服号">
+                <span>微信客服号</span>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="foot-copy">
+          <span>COPYRIGHT©WWW.ZYINE.COM, ALL RIGHTS RESERVED.</span>
+          <span>蜀ICP备18008628</span>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+  <script>
+    var width = document.body.offsetWidth
+    // 初始化
+    // 一级菜单
+    // 默认首页
+    // menus[0].style.color = '#0c7fbb'
+    // 移动端初始化
+    if (width < 415) {
+      document.getElementById('menu').style.display = 'none'
+      document.getElementById('mask').style.display = 'none'
+    }
+    // 点击菜单
+    function  handleLink (page, index) {
+      if (width < 415) {
+        document.getElementById('menu').style.display = 'none'
+        document.getElementById('mask').style.display = 'none'
+        document.body.style.overflow = 'auto'
+      }
+      if (page) {
+        window.location.href = page
+      }
+    }
+    function toggleMenu () {
+      var display = document.getElementById('menu').style.display
+      document.body.style.overflow = display === 'none' ? 'hidden' : 'auto'
+      document.getElementById('menu').style.display = display === 'none' ? 'block' : 'none'
+      document.getElementById('mask').style.display = display === 'none' ? 'block' : 'none'
+    }
+    
+  </script>
+</body>
+</html>

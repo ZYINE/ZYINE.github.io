@@ -1,0 +1,126 @@
+/* 影像中心 */
+.center .view {
+  height: 400px;
+}
+.view img {
+  object-fit: cover;
+}
+.center-desc {
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+.center-apply {
+  width: 100%;
+}
+.center-apply-item {
+  float: left;
+  width: 14.28%;
+  height: 180px;
+}
+.center-apply-item img {
+  height: 130px;
+  margin: 0 auto 20px;
+  display: block;
+}
+.center-apply-item .txt {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.center-apply-gaps {
+  width: 14.28%;
+  height: 180px;
+  float: left;
+}
+.center-scheme {
+  width: 100%;
+}
+.center-scheme-item {
+  width: 50%;
+  float: left;
+  height: 300px;
+}
+.center-scheme-item img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(225, 225, 225, 0.44);
+}
+.center-scheme-head {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  font-weight: normal;
+  margin: 80px 0 0;
+  line-height: 30px;
+}
+.center-scheme-body {
+  font-size: 16px;
+  color: #999;
+  line-height: 30px;
+  /* width: 100%; */
+  text-align: center;
+  margin: 20px 80px 0;
+}
+/* 孕产 */
+.gestate-desc {
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 60px; 
+}
+.gestate-view {
+  width: 100%;
+}
+.gestate-view img {
+  width: 1018px;
+  height: 624px;
+  margin: 0 auto 80px;
+  display: block;
+}
+.gestate-goods {
+  width: 50%;
+  float: left;
+}
+.gestate-good-item {
+  font-size: 18px;
+  line-height: 30px;
+  color: #666;
+  margin-bottom: 40px;
+}
+.gestate-good-view {
+  float: right;
+  width: 437px;
+  margin-right: 24px;
+}
+.gestate-good-view img {
+  width: 100%;
+  height: 100%;
+}
+/* 导航 */
+.navigate-view {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.navigate-view img {
+  width: 100%;
+  height: 300px;
+}
+.navigate-extends {
+  height: 180px;
+  margin-bottom: 100px;
+}
+.navigate-extends img {
+  height: 180px;
+}
+.navigate-platform {
+  height: 535px;
+}
+.navigate-platform img {
+  height: 535px;
+}
+.navigate-platform .gestate-goods {
+  margin-top: 140px;
+}
