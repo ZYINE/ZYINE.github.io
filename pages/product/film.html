@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <title>智影未来</title>
+  <link rel="stylesheet" href="/styles/common.css">
+  <link rel="stylesheet" href="/styles/page/production.css">
+  <link rel="stylesheet" href="/styles/mobile.css">
+  <link rel="stylesheet" href="/styles/mobile/production.css">
+  <script src="/index.js"></script>
+  <script src="/respond.src.js"></script>
+</head>
+<body>
+  <!-- <div class="root"> -->
+    <div class="head">
+      <div class="head-wrap">
+        <div class="head-logo">
+          <div class="head-logo-view">
+            <img src="/static/logo.png" alt="">
+          </div>
+        </div>
+        <div class="head-mask" onclick="toggleMenu()" id="mask"></div>
+        <div class="head-icon" onclick="toggleMenu()">
+          <img src="/static/menu.png" alt="">
+        </div>
+        <div class="head-link" id="menu" on>
+          <div class="head-menu" name="menu" onclick="handleLink('/index.html')">
+            <div class="head-menu-text">首页</div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text head-menu-text-spec">解决方案</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/center.html')">影像中心</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/gestate.html')">智慧孕产</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/cloud.html')">院级影像云</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/navigate.html')">院内导航导诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/platform.html')">妇幼健康大数据平台</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/waste.html')">互联网+医废监管平台</div>
+            </div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text active head-menu-text-spec">产品</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/diag.html')">云诊断</div>
+              <div class="head-menu-drop-item active" onclick="handleLink('/pages/product/film.html')">云胶片</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/save.html')">云存储</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/inquiry.html')">在线问诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/self.html')">全院自助</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/pacs.html')">院内RIS&PACS</div>
+            </div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/policy.html')">
+            <div class="head-menu-text">相关政策</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/partner.html')">
+            <div class="head-menu-text">合作医院</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/about.html')">
+            <div class="head-menu-text">关于我们</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="view view-diag">
+        <img src="/static/production/f-banner.png" alt="banner">
+      </div>
+      <div class="wrap">
+        <div class="main-nav">
+          <span class="nav" onclick="handleLink('/index.html')">首页</span>
+          <span>></span>
+          <span>产品</span>
+          <span>></span>
+          <span>云胶片</span>
+        </div>
+        <div class="wrap-item">
+          <h1 class="main-head">智影云胶片</h1>
+          <h4 class="main-desc">ZHIYINE CLOUD FILM</h4>
+          <div class="main-body">
+            <div class="main-body-center">
+              <div class="main-body-desc">
+                智影云胶片是基于智影影像云平台，利用最新的互联网技术和云计算技术，为医疗机构与患者提供数字影像服务的云服务系统，旨在降低医院的运营成本和提高患者的就诊体验。
+              </div>
+            </div>
+            <div class="main-body-center">
+              <img class=img-film-1 src="/static/production/f1.png" alt="diag">
+            </div>
+          </div>
+          <div class="main-shim"></div>
+        </div>
+        <div class="wrap-item wrap-film-2">
+          <h1 class="main-head">产品优势</h1>
+          <h4 class="main-desc">CLOUD DIAGNOSTIC ADVANTAGE</h4>
+          <div class="main-body">
+            <div class="main-body-center">
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/f2.png" alt="">
+                </div>
+                <div class="main-body-item-body">降低医院成本</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/f3.png" alt="">
+                </div>
+                <div class="main-body-item-body">提升医院形象</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/f4.png" alt="">
+                </div>
+                <div class="main-body-item-body">多终端阅片</div>
+              </div>
+              <div class="main-body-item" style="margin-bottom: 0;">
+                <div class="main-body-item-view">
+                  <img src="/static/production/f5.png" alt="">
+                </div>
+                <div class="main-body-item-body">降低医院成本</div>
+              </div>
+              <div class="main-body-item" style="margin-bottom: 0;">
+                <div class="main-body-item-view">
+                  <img src="/static/production/f6.png" alt="">
+                </div>
+                <div class="main-body-item-body">提升医院形象</div>
+              </div>
+              <div class="main-body-item"  style="margin-bottom: 0;">
+                <div class="main-body-item-view">
+                  <img src="/static/production/f7.png" alt="">
+                </div>
+                <div class="main-body-item-body">多终端阅片</div>
+              </div>
+            </div> 
+          </div>
+          <div class="main-shim"></div>
+
+        </div>
+        <div class="wrap-item wrap-film-3">
+          <h1 class="main-head">如何开启云胶片</h1>
+          <h4 class="main-desc">HOW TO START THE CLOUD FILM</h4>
+          <div class="main-body">
+            <div class="main-body-center">
+              <div class="main-body-left">
+                <div class="main-body-line">
+                  智影云胶片系统为患者提供多种访问途径查看诊断报告以及原始影像数据：</div>
+                <div class="main-body-line">1、通过医院公众号</div>
+                <div class="main-body-line">2、通过报告单上二维码。</div>
+                <div class="main-body-line">3、通过短信链接</div>
+                <div class="main-body-line">下图为“通过报告单上二维码”查看诊断报告以及原始影像数据的步骤</div>
+              </div>
+            </div>
+            <div class="main-body-center">
+              <div class="main-body-item">
+                <div class="main-body-item-head">
+                  <img src="/static/production/1.png" alt="">
+                  <span>报告单右上角的二维码，您可以使用移动设备进行微信扫一扫</span>
+                </div>
+                <div class="main-body-item-view">
+                  <img src="/static/production/f8.png" alt="">
+                </div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-head">
+                  <img src="/static//production/2.png" alt="">
+                  <span>扫描后通过公众号访问方式展现电子报告内容</span>
+                </div>
+                <div class="main-body-item-view">
+                  <img src="/static/production/f9.png" alt="">
+                </div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-head">
+                  <img src="/static/production/3.png" alt="">
+                  <span>点击界面下侧“在线阅片”,即可查看影像信息</span>
+                </div>
+                <div class="main-body-item-view">
+                  <img src="/static/production/f10.png" alt="">
+                </div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-head">
+                  <img src="/static/production/4.png" alt="">
+                  <span>通过上一步操作，便可查看完整DICOM影像资料</span>
+                </div>
+                <div class="main-body-item-view">
+                  <img src="/static/production/f11.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-shim"></div>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      <div class="foot-wrap">
+        <div class="foot-desc">
+          <div class="foot-contact">
+            <div class="foot-head">联系我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">公司: 成都智影未来科技有限公司</div>
+              <div class="foot-body-item">电话: 400-033-4001</div>
+              <div class="foot-body-item">地址: 成都市高新区天府大道中段1388号</div>
+              <div class="foot-body-item">邮箱: CSD@zyine.com</div>
+              <div class="foot-body-item">手机: 18080888033/13551071318</div>
+              <div class="foot-body-item">邮编: 610000</div>
+            </div>
+          </div>
+          <div class="foot-follow">
+            <div class="foot-head">关注我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信公众号">
+                <span>微信公众号</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fa.png" alt="Android APP">
+                <span>Android APP</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信客服号">
+                <span>微信客服号</span>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="foot-copy">
+          <span>COPYRIGHT©WWW.ZYINE.COM, ALL RIGHTS RESERVED.</span>
+          <span>蜀ICP备18008628</span>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+  <script>
+    var width = document.body.offsetWidth
+    // 初始化
+    // 一级菜单
+    // 默认首页
+    // menus[0].style.color = '#0c7fbb'
+    // 移动端初始化
+    if (width < 415) {
+      document.getElementById('menu').style.display = 'none'
+      document.getElementById('mask').style.display = 'none'
+    }
+    // 点击菜单
+    function  handleLink (page, index) {
+      if (width < 415) {
+        document.getElementById('menu').style.display = 'none'
+        document.getElementById('mask').style.display = 'none'
+        document.body.style.overflow = 'auto'
+      }
+      if (page) {
+        window.location.href = page
+      }
+    }
+    function toggleMenu () {
+      var display = document.getElementById('menu').style.display
+      document.body.style.overflow = display === 'none' ? 'hidden' : 'auto'
+      document.getElementById('menu').style.display = display === 'none' ? 'block' : 'none'
+      document.getElementById('mask').style.display = display === 'none' ? 'block' : 'none'
+    }
+    
+  </script>
+</body>
+</html>

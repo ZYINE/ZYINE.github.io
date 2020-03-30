@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <title>智影未来</title>
+  <link rel="stylesheet" href="/styles/common.css">
+  <link rel="stylesheet" href="/styles/page/production.css">
+  <link rel="stylesheet" href="/styles/mobile.css">
+  <link rel="stylesheet" href="/styles/mobile/production.css">
+  <script src="/index.js"></script>
+  <script src="/respond.src.js"></script>
+</head>
+<body>
+  <!-- <div class="root"> -->
+    <div class="head">
+      <div class="head-wrap">
+        <div class="head-logo">
+          <div class="head-logo-view">
+            <img src="/static/logo.png" alt="">
+          </div>
+        </div>
+        <div class="head-mask" onclick="toggleMenu()" id="mask"></div>
+        <div class="head-icon" onclick="toggleMenu()">
+          <img src="/static/menu.png" alt="">
+        </div>
+        <div class="head-link" id="menu" on>
+          <div class="head-menu" name="menu" onclick="handleLink('/index.html')">
+            <div class="head-menu-text">首页</div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text head-menu-text-spec">解决方案</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/center.html')">影像中心</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/gestate.html')">智慧孕产</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/cloud.html')">院级影像云</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/navigate.html')">院内导航导诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/platform.html')">妇幼健康大数据平台</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/waste.html')">互联网+医废监管平台</div>
+            </div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text active head-menu-text-spec">产品</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/diag.html')">云诊断</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/film.html')">云胶片</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/save.html')">云存储</div>
+              <div class="head-menu-drop-item active" onclick="handleLink('/pages/product/inquiry.html')">在线问诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/self.html')">全院自助</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/pacs.html')">院内RIS&PACS</div>
+            </div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/policy.html')">
+            <div class="head-menu-text">相关政策</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/partner.html')">
+            <div class="head-menu-text">合作医院</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/about.html')">
+            <div class="head-menu-text">关于我们</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="view view-diag">
+        <img src="/static/production/i-banner.png" alt="banner">
+      </div>
+      <div class="wrap">
+        <div class="main-nav">
+          <span class="nav" onclick="handleLink('/index.html')">首页</span>
+          <span>></span>
+          <span>产品</span>
+          <span>></span>
+          <span>在线问诊</span>
+        </div>
+        <div class="wrap-item wrap-save-1">
+          <h1 class="main-head">在线问诊简介</h1>
+          <h4 class="main-desc">INTRODUCTION TO ONLINE CONSULTATION</h4>
+          <div class="main-body">
+            <div class="main-body-center">
+              <div class="main-body-desc">
+                在线问诊主要针对部分常见病、慢性病复诊，不受制于诊疗地点和时间，为患者和医生提供了直接在线交流渠道。患者在平台上提交申请后，医患双方通过图文、语音及视频的方式进行在线病情交流及病历查看，实现线上疾病咨询、线上诊断等。通过在线问诊平台实现医生与患者随时随地互动，让患者随时随地可以看医生，延伸医院服务空间范围。服务形式包括图文问诊、视频问诊、电子处方、送药到家！
+              </div>
+            </div>
+            <div class="main-body-center">
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/i7.png" alt="">
+                </div>
+                <div class="main-body-item-body">图文问诊</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/i5.png" alt="">
+                </div>
+                <div class="main-body-item-body">视频问诊</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/i4.png" alt="">
+                </div>
+                <div class="main-body-item-body">电子处方</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/i7.png" alt="">
+                </div>
+                <div class="main-body-item-body">送药到家</div>
+              </div>
+            </div>
+          </div>
+          <div class="main-shim"></div>
+        </div>
+        <div class="wrap-item wrap-inquiry-2"> 
+          <h1 class="main-head">产品优势</h1>
+          <h4 class="main-desc">PRODUCT ADVANTAGE</h4>
+          <div class="main-body">
+            <div class="main-body-left">
+              <div class="main-body-line">
+                <img src="/static/production/i1.png" alt="">
+                <span>家中\途中随时随地上线</span>
+              </div>
+              <div class="main-body-line">
+                <img src="/static/production/i2.png" alt="">
+                <span>手机、PAD、电脑多终端登陆</span>
+              </div>
+              <div class="main-body-line">
+                <img src="/static/production/i3.png" alt="">
+                <span>微信一键登录，快速解搭患者诊疗疑问</span>
+              </div>
+            </div>
+            <div class="main-body-left">
+              <img class=img-inquiry-1 src="/static/production/i9.png" alt="diag">
+            </div>
+            <div class="main-body-right">
+              <img class=img-inquiry-2 src="/static/production/i8.png" alt="diag">
+            </div>
+          </div>
+          <div class="main-shim"></div>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      <div class="foot-wrap">
+        <div class="foot-desc">
+          <div class="foot-contact">
+            <div class="foot-head">联系我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">公司: 成都智影未来科技有限公司</div>
+              <div class="foot-body-item">电话: 400-033-4001</div>
+              <div class="foot-body-item">地址: 成都市高新区天府大道中段1388号</div>
+              <div class="foot-body-item">邮箱: CSD@zyine.com</div>
+              <div class="foot-body-item">手机: 18080888033/13551071318</div>
+              <div class="foot-body-item">邮编: 610000</div>
+            </div>
+          </div>
+          <div class="foot-follow">
+            <div class="foot-head">关注我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信公众号">
+                <span>微信公众号</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fa.png" alt="Android APP">
+                <span>Android APP</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信客服号">
+                <span>微信客服号</span>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="foot-copy">
+          <span>COPYRIGHT©WWW.ZYINE.COM, ALL RIGHTS RESERVED.</span>
+          <span>蜀ICP备18008628</span>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+  <script>
+    var width = document.body.offsetWidth
+    // 初始化
+    // 一级菜单
+    // 默认首页
+    // menus[0].style.color = '#0c7fbb'
+    // 移动端初始化
+    if (width < 415) {
+      document.getElementById('menu').style.display = 'none'
+      document.getElementById('mask').style.display = 'none'
+    }
+    // 点击菜单
+    function  handleLink (page, index) {
+      if (width < 415) {
+        document.getElementById('menu').style.display = 'none'
+        document.getElementById('mask').style.display = 'none'
+        document.body.style.overflow = 'auto'
+      }
+      if (page) {
+        window.location.href = page
+      }
+    }
+    function toggleMenu () {
+      var display = document.getElementById('menu').style.display
+      document.body.style.overflow = display === 'none' ? 'hidden' : 'auto'
+      document.getElementById('menu').style.display = display === 'none' ? 'block' : 'none'
+      document.getElementById('mask').style.display = display === 'none' ? 'block' : 'none'
+    }
+    
+  </script>
+</body>
+</html>

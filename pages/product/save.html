@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <title>智影未来</title>
+  <link rel="stylesheet" href="/styles/common.css">
+  <link rel="stylesheet" href="/styles/page/production.css">
+  <link rel="stylesheet" href="/styles/mobile.css">
+  <link rel="stylesheet" href="/styles/mobile/production.css">
+  <script src="/index.js"></script>
+  <script src="/respond.src.js"></script>
+</head>
+<body>
+  <!-- <div class="root"> -->
+    <div class="head">
+      <div class="head-wrap">
+        <div class="head-logo">
+          <div class="head-logo-view">
+            <img src="/static/logo.png" alt="">
+          </div>
+        </div>
+        <div class="head-mask" onclick="toggleMenu()" id="mask"></div>
+        <div class="head-icon" onclick="toggleMenu()">
+          <img src="/static/menu.png" alt="">
+        </div>
+        <div class="head-link" id="menu" on>
+          <div class="head-menu" name="menu" onclick="handleLink('/index.html')">
+            <div class="head-menu-text">首页</div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text head-menu-text-spec">解决方案</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/center.html')">影像中心</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/gestate.html')">智慧孕产</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/cloud.html')">院级影像云</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/navigate.html')">院内导航导诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/platform.html')">妇幼健康大数据平台</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/solution/waste.html')">互联网+医废监管平台</div>
+            </div>
+          </div>
+          <div class="head-menu head-menu-7" name="menu">
+            <div class="head-menu-text active head-menu-text-spec">产品</div>
+            <div class="head-menu-drop">
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/diag.html')">云诊断</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/film.html')">云胶片</div>
+              <div class="head-menu-drop-item active" onclick="handleLink('/pages/product/save.html')">云存储</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/inquiry.html')">在线问诊</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/self.html')">全院自助</div>
+              <div class="head-menu-drop-item" onclick="handleLink('/pages/product/pacs.html')">院内RIS&PACS</div>
+            </div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/policy.html')">
+            <div class="head-menu-text">相关政策</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/partner.html')">
+            <div class="head-menu-text">合作医院</div>
+          </div>
+          <div class="head-menu" name="menu" onclick="handleLink('/pages/about.html')">
+            <div class="head-menu-text">关于我们</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="view view-diag">
+        <img src="/static/production/s-banner.png" alt="banner">
+      </div>
+      <div class="wrap">
+        <div class="main-nav">
+          <span class="nav" onclick="handleLink('/index.html')">首页</span>
+          <span>></span>
+          <span>产品</span>
+          <span>></span>
+          <span>云存储</span>
+        </div>
+        <div class="wrap-item wrap-save-1">
+          <h1 class="main-head">云储存简介</h1>
+          <h4 class="main-desc">INTRODUCTION TO CLOUD STORAGE</h4>
+          <div class="main-body">
+            <div class="main-body-center">
+              <div class="main-body-desc">
+                近年来随着检查需求的增长和设备的更新换代，影像数据急剧增长。传统的影像存储方式需要定期扩容、扩大存储场地、增加维护人员，成本巨大。新一代互联网技术“云计算”、网络技术的发展，云端储存影像数据是新时代的必然选择。
+              </div>
+            </div>
+            <div class="main-body-center">
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/s1.png" alt="">
+                </div>
+                <div class="main-body-item-body">医院存储的数据80%到85%来自影像数据</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/s2.png" alt="">
+                </div>
+                <div class="main-body-item-body">一次心血管CT检查的数据>2GB/次</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/s3.png" alt="">
+                </div>
+                <div class="main-body-item-body">影像数据要中长期保存15-30年</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/s4.png" alt="">
+                </div>
+                <div class="main-body-item-body">三甲医院每年新影像数据量增加近100TB/年</div>
+              </div>
+            </div>
+          </div>
+          <div class="main-shim"></div>
+        </div>
+        <div class="wrap-item">
+          <h1 class="main-head">云存储优势</h1>
+          <h4 class="main-desc">CLOUD STORAGE ADVANTAGE</h4>
+          <div class="main-body">
+            <div class="main-body-center">
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/s5.png" alt="">
+                </div>
+                <div class="main-body-item-body">平台数字认证、加密传输存储、数字签名防篡改、严格的注册流程、授权访问</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/s6.png" alt="">
+                </div>
+                <div class="main-body-item-body">原始数据在线存储，按需随取，极速访问</div>
+              </div>
+              <div class="main-body-item">
+                <div class="main-body-item-view">
+                  <img src="/static/production/s7.png" alt="">
+                </div>
+                <div class="main-body-item-body">按需存储，按量计费，且无场地成本、硬件成本、维护管理成本</div>
+              </div> 
+            </div> 
+          </div>
+          <div class="main-shim"></div>
+        </div>
+        <div class="wrap-item wrap-save-3">
+          <h1 class="main-head">云存储特色</h1>
+          <h4 class="main-desc">CLOUD STORAGE FEATURES</h4>
+          <div class="main-body">
+            <div class="main-body-center">
+              <div class="main-body-item">
+                <div class="main-body-item-wrap">
+                  <div class="main-body-item-head">院内系统无缝对接</div>
+                </div>
+              </div>
+              <div class="main-body-gaps"></div>
+              <div class="main-body-item">
+                <div class="main-body-item-wrap" style="border-color: #0c7fbb;">
+                  <div class="main-body-item-head">存储年限可定制</div>
+                </div>
+              </div>
+              <div class="main-body-gaps"></div>
+              <div class="main-body-item" style="border-color: #e09e20;">
+                <div class="main-body-item-wrap">
+                  <div class="main-body-item-head">线上文件管理方便</div>
+                </div>
+              </div>
+              <div class="main-body-gaps"></div>
+              <div class="main-body-item">
+                <div class="main-body-item-wrap" style="border-color: #00a0a1;">
+                  <div class="main-body-item-head">影像数据院际互通</div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="main-shim"></div>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      <div class="foot-wrap">
+        <div class="foot-desc">
+          <div class="foot-contact">
+            <div class="foot-head">联系我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">公司: 成都智影未来科技有限公司</div>
+              <div class="foot-body-item">电话: 400-033-4001</div>
+              <div class="foot-body-item">地址: 成都市高新区天府大道中段1388号</div>
+              <div class="foot-body-item">邮箱: CSD@zyine.com</div>
+              <div class="foot-body-item">手机: 18080888033/13551071318</div>
+              <div class="foot-body-item">邮编: 610000</div>
+            </div>
+          </div>
+          <div class="foot-follow">
+            <div class="foot-head">关注我们</div>
+            <div class="foot-body">
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信公众号">
+                <span>微信公众号</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fa.png" alt="Android APP">
+                <span>Android APP</span>
+              </div>
+              <div class="foot-body-item">
+                <img src="/static/fw.jpg" alt="微信客服号">
+                <span>微信客服号</span>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="foot-copy">
+          <span>COPYRIGHT©WWW.ZYINE.COM, ALL RIGHTS RESERVED.</span>
+          <span>蜀ICP备18008628</span>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+  <script>
+    var width = document.body.offsetWidth
+    // 初始化
+    // 一级菜单
+    // 默认首页
+    // menus[0].style.color = '#0c7fbb'
+    // 移动端初始化
+    if (width < 415) {
+      document.getElementById('menu').style.display = 'none'
+      document.getElementById('mask').style.display = 'none'
+    }
+    // 点击菜单
+    function  handleLink (page, index) {
+      if (width < 415) {
+        document.getElementById('menu').style.display = 'none'
+        document.getElementById('mask').style.display = 'none'
+        document.body.style.overflow = 'auto'
+      }
+      if (page) {
+        window.location.href = page
+      }
+    }
+    function toggleMenu () {
+      var display = document.getElementById('menu').style.display
+      document.body.style.overflow = display === 'none' ? 'hidden' : 'auto'
+      document.getElementById('menu').style.display = display === 'none' ? 'block' : 'none'
+      document.getElementById('mask').style.display = display === 'none' ? 'block' : 'none'
+    }
+    
+  </script>
+</body>
+</html>

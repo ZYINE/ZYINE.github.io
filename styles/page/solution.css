@@ -124,3 +124,66 @@
 .navigate-platform .gestate-goods {
   margin-top: 140px;
 }
+
+.platform-view {
+  width: 100%;
+}
+.platform-view-item {
+  float: left;
+  width: 30%;
+  height: 80px;
+  margin-bottom: 40px;
+}
+.platform-view-wrap {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #0c7fbb;
+  position: relative;
+}
+
+.platform-view-item-no {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 100%;
+  background: #0c7fbb;
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+}
+.platform-view-item-txt {
+  position: absolute;
+  left: 80px;
+  right: 0;
+  height: 80px;
+  line-height: 80px;
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+}
+.platform-view-gaps {
+  width: 5%;
+  float: left;
+  height: 80px;
+}
+.platform-body .gestate-good-view {
+  overflow: hidden;
+  margin-right: 0;
+}
+.platform-body img {
+  height: 200px;
+  width: 475px;
+}
+.waste-view {
+  width: 100%;
+  height: 272px;
+}
+.waste-view-flow {
+  width: 100%;
+  height: 645px;
+}
+.waste-body .gestate-good-item {
+  margin-bottom: 10px;
+}

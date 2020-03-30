@@ -1,0 +1,170 @@
+@media screen and (max-width: 414px) {
+  .main-shim {
+    height: 40px;
+  }
+  .view-diag {
+    height: 124px;
+    max-height: 124px;
+    min-height: 124px;
+  }
+  .view-diag img {
+    height: 100%;
+  }
+  .main-body-left {
+    float: none;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .main-body-right {
+    float: none;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .main-body-desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .main-body-line {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  /* 云诊断平台 */
+  .img-diag-1 {
+    width: 80%;
+    display: block;
+    margin: 20px auto 0;
+    float: none;
+  }
+  /* 云诊断优势 */
+  .main-body-item-view {
+    height: 90px;
+  }
+  .main-body-item-view img {
+    height: 90px;
+  }
+  .main-body-item-head {
+    font-size: 16px;
+  }
+  .main-body-item-body {
+    font-size: 14px;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  /* 云诊断流程图 */
+  .img-diag-2 {
+    width: 90%;
+  }
+  /* 云诊断平台功能  */
+  .wrap-diag-4 {
+    padding: 0 15px;
+  }
+  .wrap-diag-4 .main-body-item {
+    height: 180px;
+    width: 32%;
+    margin-bottom: 10px;
+  }
+  .wrap-diag-4 .main-body-item-wrap {
+    height: 180px;
+  }
+  .wrap-diag-4 .main-body-gaps {
+    width: 2%;
+    height: 180px;
+  }
+  /* 云诊断全流程影像业务支持  */
+  .img-diag-3 {
+    height: auto;
+    padding: 0 15px 0 10px;
+  }
+
+  /* 云胶片 */
+  .main-body-desc {
+    padding: 0 15px;
+  }
+  .img-film-1 {
+    padding: 0 15px;
+  }
+  /* 云胶片优势 */
+  .wrap-film-2 .main-body-item {
+    margin-bottom: 20px;
+  }
+  .wrap-film-2 .main-body-item-view {
+    height: 70px;
+  }
+  .wrap-film-2 img {
+    height: 60px;
+  }
+  /* 云胶片开启 */
+  .wrap-film-3 .main-body-item {
+    width: 100%;
+  }
+  .wrap-film-3 .main-body-item-head {
+    padding: 0 15px;
+  }
+  .wrap-film-3 .main-body-item-head span {
+    width: 80%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .wrap-film-3 .main-body-item-view {
+    height: fit-content;
+  }
+  .wrap-film-3 .main-body-item-view img {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+  }
+  /* 云存储 */
+  .wrap-save-1 .main-body-item-view {
+    height: 100px;
+  }
+  .wrap-save-1 .main-body-desc {
+    margin-bottom: 10px;
+  }
+  /* 云存储优势 */
+  /* 云存储特色 */
+  .wrap-save-3 .main-body {
+    padding: 0 15px;
+  }
+  .wrap-save-3 .main-body-item {
+    width: 50%;
+  }
+  .wrap-save-3 .main-body-gaps {
+    display: none;
+  }
+  /* 在线问诊 */
+  .wrap-inquiry-2 .main-body-left {
+    width: 100%
+  }
+  .wrap-inquiry-2 .main-body-right {
+    width: 100%;
+  }
+  .wrap-inquiry-2 .main-body-line {
+    height: 36px;
+    margin-bottom: 20px;
+  }
+  .wrap-inquiry-2 .main-body-line img {
+    display: block;
+    float: left;
+    height: 36px;
+    margin-right: 15px;
+  }
+  .wrap-inquiry-2 .main-body-line span {
+    display: block;
+    float: left;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+  }
+  .img-inquiry-1 {
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img-inquiry-2 {
+    width: 80%;
+    margin: 30px auto 0;
+    display: block;
+    height: auto;
+  }
+}
