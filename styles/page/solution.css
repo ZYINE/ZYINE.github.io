@@ -168,6 +168,9 @@
   float: left;
   height: 80px;
 }
+.platform-desc {
+  margin-bottom: 50px;
+}
 .platform-body .gestate-good-view {
   overflow: hidden;
   margin-right: 0;

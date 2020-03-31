@@ -139,3 +139,18 @@
   line-height: 30px;
   color: #999;
 }
+/* 关于我们 */
+.wrap-about-1 img {
+  height: 250px;
+}
+.wrap-about-1 .about-item-desc {
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  margin-bottom: 100px;
+}
+.wrap-about .about-item-view {
+  width: 100%;
+  margin-bottom: 120px;
+}

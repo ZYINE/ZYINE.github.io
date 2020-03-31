@@ -167,4 +167,32 @@
     display: block;
     height: auto;
   }
+  /* 全院自助 */
+  .wrap-self-1 .main-body-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .wrap-self-1 .main-body-left img {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    height: auto;
+  }
+  .wrap-self-1 .main-body-right {
+    width: 100%;
+  }
+  .wrap-self-1 .main-body-right img {
+    width: 70%;
+    float: none;
+    margin: 0 auto;
+    height: auto;
+  }
+  .wrap-self-2 .main-body-item {
+    width: 50%;
+    height: 200px;
+  }
+  .wrap-self-2 .main-body-item img {
+    width: 100%;
+    height: 200px;
+  }
 }
