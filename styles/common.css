@@ -47,7 +47,7 @@ body * {
   right: 0;
   background: #fff;
   z-index: 9;
-  box-shadow: 0px 8px 16px 0px rgba(225, 225, 225, 0.44);
+  /* box-shadow: 0px 8px 16px 0px rgba(225, 225, 225, 0.44); */
 }
 .head-wrap {
   height: 80px;
@@ -91,15 +91,19 @@ body * {
   letter-spacing: 1px;
 }
 .head-menu-drop {
+  padding: 8px 0;
   display: none;
   position: absolute;
   top: 100%;
-  left: -50%;
+  left: -30%;
   z-index: 999;
-  width: 200%;
+  width: 160%;
+  /* width: 206px; */
   background: #fff;
-  box-shadow: 0 1px 6px rgba(0,0,0,.2);
+  /* box-shadow: 0 1px 6px rgba(0,0,0,.2); */
   text-align: center;
+  box-shadow: 0px 6px 12px 0px rgba(2, 48, 94, 0.66);
+	border-radius: 4px;
 }
 .head-menu-drop-item {
   padding: 12px 0;
@@ -110,7 +114,9 @@ body * {
   display: block;
 }
 .head-menu:hover .head-menu-drop .head-menu-drop-item:hover {
-  color: #0c7fbb;
+  /* color: #0c7fbb; */
+  background: #0c7fbb;
+  color: #fff;
 }
 .foot {
   width: 100%;
@@ -241,6 +247,10 @@ body * {
 /* 工具类 */
 .active {
   color: #0c7fbb;
+}
+.head-menu-drop-item.active {
+  background: #0c7fbb;
+  color: #fff;
 }
 .clear {
   clear: both;

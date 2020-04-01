@@ -38,6 +38,7 @@
   float: left;
   text-align: center;
   padding: 34px 0;
+  cursor: pointer;
 }
 .index-solve-item-view {
   margin-top: 15px;
@@ -71,6 +72,7 @@
 .index-solve-item-mbtn {
   font-family: 'ArialMT';
   color: #666;
+  text-align: center;
 }
 .index-solve-item:hover {
   background: #fff;
@@ -96,16 +98,39 @@
   border: 1px solid #999;
   box-sizing: border-box; *behavior: url(/styles/boxsizing.htc);
   margin-bottom: 15px;
+  position: relative;
+  background: #fff;
 }
-.index-coope-item img {
+.index-coope-item .partner {
   display: block;
   margin: 0 auto;
   width: 92px;
   height: 92px;
   margin-top: 29px;
 }
+.index-coope-item .partner-hover {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 190px;
+  z-index: -1;
+}
+.index-coope-item:hover {
+  border-color: #4287be;
+}
+.index-coope-item:hover .partner-hover {
+  display: block;
+}
 .index-coope-gaps {
   width: 0.8%;
   height: 150px;
   float: left;
+}
+.main-body-ex .index-solve-item-mbtn:hover {
+  background: #0c7fbb;
+  color: #fff;
+  cursor: pointer;
 }

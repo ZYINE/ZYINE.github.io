@@ -11,12 +11,13 @@
   height: 200px;
   margin-bottom: 40px;
   position: relative;
+  background: #fff;
 }
 .partner-item:hover .partner-hover {
   display: block;
 }
 .partner-item:hover .partner-item-wrap {
-  border-color: #4287be;
+  border-color: transparent;
 }
 .partner-hover {
   display: none;
@@ -24,7 +25,9 @@
   left: 0;
   top: 0;
   right: 0;
+  width: 100%;
   height: 190px;
+  /* z-index: -1; */
 }
 .partner-item-wrap {
   border: 1px solid #999;
@@ -103,8 +106,11 @@
   overflow: hidden;
 }
 .policy-item:hover {
-  border-color: #0c7fbb;
+  /* border-color: #0c7fbb; */
   box-shadow: -4px 4px 17px 1px rgba(106, 159, 187, 0.3);
+}
+.policy-item:hover .policy-desc-title {
+  color: #0c7fbb;
 }
 .policy-page {
   width: 250px;
@@ -133,7 +139,21 @@
   color: #666;
 }
 .policy-quote {
+  position: relative;
   margin: 0 40px 40px;
+  padding-top: 20px;
+}
+.policy-quote .quote-left {
+  position: absolute;
+  left: -40px;
+  top: 0;
+  height: 20px;
+}
+.policy-quote .quote-right {
+  position: absolute;
+  bottom: 0;
+  right: -40px;
+  height: 20px;
 }
 .policy-quote p {
   line-height: 30px;

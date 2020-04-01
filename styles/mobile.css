@@ -96,6 +96,7 @@
     color: #999;
   }
   .head-menu-drop {
+    padding: 0;
     display: block;
     box-shadow: none;
     position: relative;

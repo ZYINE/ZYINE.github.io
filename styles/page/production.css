@@ -217,3 +217,7 @@
   width: 25%;
   box-shadow: 0px 8px 16px 0px rgba(225, 225, 225, 0.44);
 }
+.wrap-self-2 .main-body-item-txt {
+  box-shadow: none;
+  padding: 0 50px;
+}
