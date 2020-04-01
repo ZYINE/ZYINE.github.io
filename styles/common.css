@@ -47,7 +47,7 @@ body * {
   right: 0;
   background: #fff;
   z-index: 9;
-  /* box-shadow: 0px 8px 16px 0px rgba(225, 225, 225, 0.44); */
+  box-shadow:  -3px -3px 11px 1px rgba(142, 164, 176, 0.4);;
 }
 .head-wrap {
   height: 80px;
@@ -94,7 +94,7 @@ body * {
   padding: 8px 0;
   display: none;
   position: absolute;
-  top: 100%;
+  top: 100px;
   left: -30%;
   z-index: 999;
   width: 160%;
@@ -109,6 +109,10 @@ body * {
   padding: 12px 0;
   cursor: pointer;
   font-size: 18px;
+}
+.head-menu:hover {
+  height: 100px;
+  padding-bottom: 20px;
 }
 .head-menu:hover .head-menu-drop {
   display: block;

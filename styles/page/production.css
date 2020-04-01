@@ -57,6 +57,7 @@
   color: #666;
   margin-top: 20px;
   text-align: center;
+  font-weight: bold;
 }
 .main-body-item-body {
   margin-top: 24px;
@@ -64,7 +65,8 @@
   letter-spacing: 0;
   color: #999;
   text-align: center;
-  padding: 20px 0 0 0;
+  padding: 0 31px 0;
+  line-height: 30px;
 }
 /* 云诊断流程图 1.3 */
 .img-diag-2 {
@@ -86,6 +88,10 @@
 .wrap-diag-4 .main-body-item-wrap {
   border: 1px solid #e18446;
   height: 160px;
+}
+.wrap-diag-4 .main-body-item-head {
+  /* margin-top: 34px; */
+  margin-top: 28px;
 }
 /* 全流程影像业务支持 1.5 */
 .img-diag-3 {
@@ -148,6 +154,19 @@
   height: 150px;
 }
 /* 云存储优势 */
+.wrap-save-2 .main-body-item-view {
+  height: 160px;
+}
+.wrap-save-2 .main-body-item-view img {
+  height: 160px;
+}
+.wrap-save-2 .main-body-item-head {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.wrap-save-2 .main-body-item-body {
+  margin-top: 20px;
+}
 /* 云存储功能 */
 .wrap-save-3 .main-body-item {
   height: 82px;
@@ -219,5 +238,16 @@
 }
 .wrap-self-2 .main-body-item-txt {
   box-shadow: none;
-  padding: 0 50px;
+  /* padding: 0 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrap-self-2 .main-body-item-head {
+  margin-top: 0;
+}
+.wrap-self-2 .main-body-item-body {
+  margin: 0;
+  padding: 17px 50px;
 }

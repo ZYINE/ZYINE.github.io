@@ -44,6 +44,10 @@
   margin: 29px auto;
   position: relative;
 }
+.partner-view img {
+  width: 92px;
+  height: 92px;
+}
 .partner-text {
   width: 100%;
   text-align: center;
@@ -96,6 +100,7 @@
   margin-bottom: 20px;
   font-size: 18px;
   color: #666;
+  font-weight: bold;
 }
 .policy-desc-info {
   font-size: 16px;
@@ -107,6 +112,7 @@
 }
 .policy-item:hover {
   /* border-color: #0c7fbb; */
+  border-color: transparent;
   box-shadow: -4px 4px 17px 1px rgba(106, 159, 187, 0.3);
 }
 .policy-item:hover .policy-desc-title {
