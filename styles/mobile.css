@@ -80,6 +80,14 @@
     line-height: 28px;
     height: 28px;
   }
+  .head-menu:hover {
+    /* height: 28px; */
+    height: 196px;
+    padding-bottom: 0;
+  }
+  .head-menu:hover .head-menu-drop {
+    display: block;
+  }
   .head-menu-7 {
     height: 196px;
   }
