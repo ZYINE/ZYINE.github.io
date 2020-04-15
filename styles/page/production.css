@@ -2,10 +2,10 @@
   clear: both;
 }
 .view-diag {
-  height: 400px !important;
+  /* height: 400px !important; */
 }
 .view-diag img {
-  height: 400px;
+  /* height: 400px; */
 }
 .main-body-left {
   float: left;

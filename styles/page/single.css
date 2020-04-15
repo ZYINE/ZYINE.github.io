@@ -1,6 +1,6 @@
 /* 合作医院 */
 .partner .view {
-  height: 400px;
+  /* height: 400px; */
 }
 .partner-wrap {
   width: 100%;
@@ -67,7 +67,7 @@
 
 /* 政策 */
 .policy .view {
-  height: 400px;
+  /* height: 400px; */
 }
 .policy-wrap{
   width: 100%;

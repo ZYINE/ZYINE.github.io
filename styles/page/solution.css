@@ -1,6 +1,6 @@
 /* 影像中心 */
 .center .view {
-  height: 400px;
+  /* height: 400px; */
 }
 .view img {
   object-fit: cover;
