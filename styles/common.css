@@ -29,6 +29,11 @@ body {
   overflow-x: hidden;
   font-family: 'PingFangSC, Microsoft YaHei, Arial, helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif !important';
 }
+body > a {
+  position: fixed;
+  top: 0;
+  left: 100%;
+}
 body * {
   /* box-sizing: border-box; */
   box-sizing: border-box;
